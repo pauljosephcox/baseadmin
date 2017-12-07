@@ -1,0 +1,24 @@
+#adminmenumain {
+
+
+    padding: 2em;
+    background-color: $adminBarBackground;
+    color: $textColor;
+    float: left;
+    height: 100vh;
+    a {
+        color: $textColor;
+        background-color: $adminBarBackground;
+    }
+
+    #adminmenuback {
+        background-color: $adminBarBackground;
+        box-shadow: 10px 0px 1em 0px rgba(0,0,0,0.15);
+    }
+
+
+
+
+
+
+}

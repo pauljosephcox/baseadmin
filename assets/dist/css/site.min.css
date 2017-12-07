@@ -1045,6 +1045,27 @@
     color: #AA0000; }
   .wp-core-ui .success {
     color: #00AA00; }
+  .wp-core-ui #adminmenumain {
+    padding: 2em;
+    background-color: #EFEFEF;
+    color: #000000;
+    float: left;
+    height: 100vh; }
+    .wp-core-ui #adminmenumain a {
+      color: #000000;
+      background-color: #EFEFEF; }
+    .wp-core-ui #adminmenumain #adminmenuback {
+      background-color: #EFEFEF;
+      box-shadow: 10px 0px 1em 0px rgba(0, 0, 0, 0.15); }
+  .wp-core-ui #wpadminbar {
+    padding: 2em;
+    background-color: #EFEFEF;
+    color: #000000;
+    box-shadow: 0px 0px 1em 0px rgba(0, 0, 0, 0.15); }
+    .wp-core-ui #wpadminbar a {
+      color: #000000; }
+  .wp-core-ui #wpbody {
+    padding: 3em; }
   .wp-core-ui button,
   .wp-core-ui .button,
   .wp-core-ui [class^="button"],
@@ -1273,7 +1294,5 @@
     .wp-core-ui [data-tooltip]:hover:before, .wp-core-ui [data-tooltip]:hover:after {
       visibility: visible;
       opacity: 1; }
-  .wp-core-ui #wpadminbar {
-    padding: 2em; }
 
 /*# sourceMappingURL=site.min.css.map */

@@ -1,0 +1,12 @@
+#wpadminbar {
+
+    padding: 2em;
+    background-color: $adminBarBackground;
+    color: $textColor;
+    box-shadow: 0px 0px 1em 0px rgba(0,0,0,0.15);
+    a {
+        color: $textColor;
+    }
+
+
+}
