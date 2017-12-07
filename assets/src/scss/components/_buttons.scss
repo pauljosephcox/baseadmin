@@ -1,0 +1,42 @@
+//
+// Buttons
+// --------------------------------------------------
+
+button,
+.button,
+[class^="button"],
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+
+    display: inline-block;
+    padding: 0.625em 1.25em;
+    margin: 0 0 0.625em;
+    border: none;
+    appearance: none;
+    outline: none;
+    line-height: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 1rem;
+    height: auto;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+
+    @include button-style($baseColor, $textColor);
+
+    &.huge{
+        font-size: 1.25rem;
+        font-weight: 600;
+        padding: 0.625em 2em;
+    }
+}
+
+
+button.primary,
+.button-primary,
+input.button-primary {
+	@include button-style($primaryColor, white);
+}
