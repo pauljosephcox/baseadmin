@@ -1,5 +1,15 @@
 #wpbody {
 
-    padding: 3em;
+    padding: $space;
+
+
+    .wrap {
+
+        margin-top: $space*2;
+
+    }
+
+
+
 
 }

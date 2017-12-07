@@ -1065,7 +1065,9 @@
     .wp-core-ui #wpadminbar a {
       color: #000000; }
   .wp-core-ui #wpbody {
-    padding: 3em; }
+    padding: 2em; }
+    .wp-core-ui #wpbody .wrap {
+      margin-top: 4em; }
   .wp-core-ui button,
   .wp-core-ui .button,
   .wp-core-ui [class^="button"],
@@ -1253,6 +1255,8 @@
     display: block; }
     .wp-core-ui ul.menu-secondary li a {
       display: block; }
+  .wp-core-ui .update-nag {
+    padding: 2em; }
   .wp-core-ui [data-tooltip] {
     position: relative;
     height: 100%;
